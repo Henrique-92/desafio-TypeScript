@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather&family=Montserrat:wght@400;900&family=Open+Sans&family=Sacramento&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    margin-bottom: 10px ;
+    background-color:  #ECF1EF;
+    border-radius: 10px;
+    border: 2px solid rgb(46, 46, 46);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    padding: 8px 8px 8px; 
+    color: rgb(64, 64, 64);  
+}
+
+button:hover{
+    color: white;
+    background: rgb(64, 64, 64);
+    border-color: white;
+    transition: all 0.2s linear;
+}
+
+input{
+    background-color: lightgray;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 8px 8px 8px;
+    border: 2px solid rgb(46, 46, 46);
+}
+
+input:hover{
+    color: white;
+    background: rgb(64, 64, 64);
+    border-color: white;
+    transition: all 0.2s linear;
+}
+
+div{
+    background-color: lightgray;
+    margin-top: 100px;
+    padding: 20px 30px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 5px 4px 3px rgba(50, 50, 50, 0.77);
+}
